@@ -1,6 +1,6 @@
 %define cvs_version     %(echo %{version} | tr . _)
 Summary:	Java imaging toolkit
-Summary(pl):	Biblioteka do obrazków w Javie
+Summary(pl.UTF-8):   Biblioteka do obrazkÃ³w w Javie
 Name:		jimi
 Version:	1.0
 Release:	0.1
@@ -25,51 +25,51 @@ JPEG, TIFF, PNG, PICT, Photoshop, BMP, Targa, ICO, CUR, Sunraster,
 XBM, XPM, and PCX, although some of these formats do not have complete
 support for all features.
 
-%description -l pl
-JIMI SDK to biblioteka klas do zarz±dzania obrazkami. G³ówn± jej
-funkcj± s± operacje we/wy na obrazkach. Poprzednio by³ to produkt
-firmy Activated Intelligence. Sun udostêpnia bibliotekê dla
-programistów posiadaj±cych kod zale¿±cy od biblioteki Jimi oraz dla
-tych, którzy potrzebuj± funkcjonalno¶ci we/wy dla obrazków w
-aplikacjach dzia³aj±cych pod kontrol± wersji 1.1.x platformy Java(TM).
-Jimi obs³uguje formaty graficzne GIF, JPEG, TIFF, PNG, PICT,
-Photoshop, BMP, Targa, ICO, CUR, Sunraster, XBM, XPM i PCX, choæ
-niektóre z tych formatów nie maj± pe³nej obs³ugi niektórych
-w³a¶ciwo¶ci.
+%description -l pl.UTF-8
+JIMI SDK to biblioteka klas do zarzÄ…dzania obrazkami. GÅ‚Ã³wnÄ… jej
+funkcjÄ… sÄ… operacje we/wy na obrazkach. Poprzednio byÅ‚ to produkt
+firmy Activated Intelligence. Sun udostÄ™pnia bibliotekÄ™ dla
+programistÃ³w posiadajÄ…cych kod zaleÅ¼Ä…cy od biblioteki Jimi oraz dla
+tych, ktÃ³rzy potrzebujÄ… funkcjonalnoÅ›ci we/wy dla obrazkÃ³w w
+aplikacjach dziaÅ‚ajÄ…cych pod kontrolÄ… wersji 1.1.x platformy Java(TM).
+Jimi obsÅ‚uguje formaty graficzne GIF, JPEG, TIFF, PNG, PICT,
+Photoshop, BMP, Targa, ICO, CUR, Sunraster, XBM, XPM i PCX, choÄ‡
+niektÃ³re z tych formatÃ³w nie majÄ… peÅ‚nej obsÅ‚ugi niektÃ³rych
+wÅ‚aÅ›ciwoÅ›ci.
 
 %package manual
 Summary:	Manual for %{name}
-Summary(pl):	Podrêcznik dla pakietu %{name}
+Summary(pl.UTF-8):   PodrÄ™cznik dla pakietu %{name}
 Group:		Development/Languages/Java
 
 %description manual
 Documentation for %{name}.
 
-%description manual -l pl
+%description manual -l pl.UTF-8
 Dokumentacja dla pakietu %{name}.
 
 %package javadoc
 Summary:	Javadoc for %{name}
-Summary(pl):	Dokumentacja javadoc dla pakietu %{name}
+Summary(pl.UTF-8):   Dokumentacja javadoc dla pakietu %{name}
 Group:		Documentation
 
 %description javadoc
 Javadoc for %{name}.
 
-%description javadoc -l pl
+%description javadoc -l pl.UTF-8
 Dokumentacja javadoc dla pakietu %{name}.
 
 %package demo
 Summary:	Demo for %{name}
-Summary(pl):	Programy demonstracyjne dla pakietu %{name}
+Summary(pl.UTF-8):   Programy demonstracyjne dla pakietu %{name}
 Group:		Development/Languages/Java
 Requires:	%{name} = %{version}-%{release}
 
 %description demo
 Demonstrations and samples for %{name}.
 
-%description demo -l pl
-Programy demonstracyjne i przyk³adowe dla pakietu %{name}.
+%description demo -l pl.UTF-8
+Programy demonstracyjne i przykÅ‚adowe dla pakietu %{name}.
 
 %prep
 %setup -q -n Jimi

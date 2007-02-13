@@ -1,6 +1,6 @@
 %define cvs_version     %(echo %{version} | tr . _)
 Summary:	Java imaging toolkit
-Summary(pl.UTF-8):   Biblioteka do obrazków w Javie
+Summary(pl.UTF-8):	Biblioteka do obrazków w Javie
 Name:		jimi
 Version:	1.0
 Release:	0.1
@@ -39,7 +39,7 @@ właściwości.
 
 %package manual
 Summary:	Manual for %{name}
-Summary(pl.UTF-8):   Podręcznik dla pakietu %{name}
+Summary(pl.UTF-8):	Podręcznik dla pakietu %{name}
 Group:		Development/Languages/Java
 
 %description manual
@@ -50,7 +50,7 @@ Dokumentacja dla pakietu %{name}.
 
 %package javadoc
 Summary:	Javadoc for %{name}
-Summary(pl.UTF-8):   Dokumentacja javadoc dla pakietu %{name}
+Summary(pl.UTF-8):	Dokumentacja javadoc dla pakietu %{name}
 Group:		Documentation
 
 %description javadoc
@@ -61,7 +61,7 @@ Dokumentacja javadoc dla pakietu %{name}.
 
 %package demo
 Summary:	Demo for %{name}
-Summary(pl.UTF-8):   Programy demonstracyjne dla pakietu %{name}
+Summary(pl.UTF-8):	Programy demonstracyjne dla pakietu %{name}
 Group:		Development/Languages/Java
 Requires:	%{name} = %{version}-%{release}
 

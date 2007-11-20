@@ -52,6 +52,7 @@ Dokumentacja dla pakietu %{name}.
 Summary:	Javadoc for %{name}
 Summary(pl.UTF-8):	Dokumentacja javadoc dla pakietu %{name}
 Group:		Documentation
+Requires:	jpackage-utils
 
 %description javadoc
 Javadoc for %{name}.

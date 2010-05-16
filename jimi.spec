@@ -11,6 +11,7 @@ Source0:	%{name}%{cvs_version}.zip
 NoSource:	0
 URL:		http://java.sun.com/products/jimi/
 BuildRequires:	perl-base
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
